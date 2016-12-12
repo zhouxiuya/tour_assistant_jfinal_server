@@ -1,0 +1,23 @@
+<fieldset class="solid">
+	<legend>创建User</legend>
+	<div>
+		<label>id</label>
+		<input type="text" name="user.user_id" value="${(user.user_id)!}" />${user_idMsg!}
+	</div>
+	<div>
+		<label>用户名</label>
+		<input type="text" name="user.user_name" value="${(user.user_name)!}" />${user_nameMsg!}
+	</div>
+	<div>
+		<label>密码</label>
+		<input type="text" name="user.user_pwd" value="${(user.user_pwd)!}" />${user_pwdMsg!}
+	</div>
+	<div>
+		<label>电子邮箱</label>
+		<input type="text" name="user.email" value="${(user.email)!}" />${emailMsg!}
+	</div>
+	<div>
+		<label>&nbsp;</label>
+		<input value="提交" type="submit">
+	</div>
+</fieldset>
